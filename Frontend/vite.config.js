@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': 'https://codeoptima-backend-1wq3.onrender.com'
+      '/api': 'https://codeoptima-backend-iq4m.onrender.com'
     }
   }
 })
