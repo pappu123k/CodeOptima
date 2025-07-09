@@ -46,7 +46,7 @@ function App() {
   }, [review]);
 
   async function reviewCode() {
-    const apiURL = "https://codeoptima-backend-1wq3.onrender.com/ai/get-review"; // Direct backend URL
+    const apiURL = "https://codeoptima-backend-iq4m.onrender.com/ai/get-review"; // Direct backend URL
     setLoading(true);
     try {
       console.log("Calling API at:", apiURL);
